@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body{
+    margin:0px;
+    font-family:poppins ;
+}
+nav{
+    margin: 0px;
+    background-color:rgb(36, 13, 13);
+    padding-left:10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    float:left;
+
+}
+.camera{
+    position: relative;
+    right: 15vw;
+}
+.camera:hover{
+    cursor: pointer;
+}
+h2{
+    position: relative;
+    top: 5px;
+ color: white;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    margin:1vw;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#29d9d5;
+    
+}
+ul{
+    position: relative;
+    right:5vw;
+}
+.book{
+    padding:10px 15px;
+    border-radius: 50px;
+    color: #29d9d5;
+    border-color: #29d9d5;
+    background-color: rgb(36, 13, 13);
+    position: relative;
+    left: 15vw;
+
+}
+.book:hover{
+    color:rgb(36, 13, 13);
+    background-color: #29d9d5;
+}
+.section1 h1{
+    color: blue;
+    display: inline;
+}
+.section1{
+margin:5vh 12vw;
+background-color: #F0E1E3;
+padding-top: 8px;
+padding-left: 7px;
+padding-bottom: 0px;
+border-radius: 8px;
+}
+.grid{
+    margin:5vh 12vw;
+    
+
+}
+.div1{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.div1Img{
+    width:22vw;
+    height:33vh;
+    border-radius: 5px;
+    
+}
+.div1Img:hover{
+    filter: grayscale();
+
+}
+.div1Img::after{
+    background-image: url('./camera.png');
+}
+.section3{
+    background-color: #0E323B;
+    }
+    .divIn{
+        display:inline-block;
+        text-align:center;
+        color: white;
+
+    }
+    .text{
+        height: 50vh;
+        width:5vw;
+        display: inline;
+    }
+    .sec2{
+        display: flex;
+    }
