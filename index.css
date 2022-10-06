@@ -113,4 +113,47 @@ border-radius: 8px;
     }
     .sec2{
         display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+        height:30vh;
+
+    }
+    .divvv{
+        height:20vh;
+        width: 25vw;
+        
+    }
+    .book1{
+        padding:10px 15px;
+        border-radius: 50px;
+        color: #29d9d5;
+        border-color: #29d9d5;
+        background-color: rgb(36, 13, 13);
+        position: relative;
+        left: 47%;
+    }
+    .book1:hover{
+        color:black;
+        background-color: #29d9d5;
+    }
+    #book:hover{
+        color:black;
+        background-color: #29d9d5;
+    }
+    #book{
+    padding:10px 15px;
+    border-radius: 50px;
+    color: #29d9d5;
+    border-color: #29d9d5;
+    background-color: rgb(36, 13, 13);
+    margin-top: 10px;
+    }
+    .email{
+display: inline;
+padding: 10px;
+background-color: black;
+border-color: #29d9d5;
+border-radius: 50px;
+color: white;
     }
